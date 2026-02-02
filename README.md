@@ -1,4 +1,5 @@
 # Digital Culture
+![titlecover](https://github.com/user-attachments/assets/c49f62e6-b96c-4f96-a170-4dba07fc4e67)
 
 A virtual fed-batch stirred tank bioreactor. This application integrates physics-based biological modelling, neural network-based control, and real-time 3D visualization to simulate fermentation processes.
 
@@ -76,6 +77,24 @@ Where $\mu$ follows multiplicative Monod kinetics dependent on Glucose ($S$) and
 Oxygen Mass Transfer Coefficient ($k_L a$) is calculated dynamically:
 $$ k_L a \propto (P/V)^{0.4} (v_s)^{0.5} $$
 Where $P/V \propto N^3$ (Impeller Speed).
+
+### Acknowledgements
+
+I express my sincere gratitude to the developers and communities behind:
+
+* **Streamlit:** The framework that made it possible to build this interactive web application with pure Python, enabling development of this user interfaces.
+    * [Streamlit Documentation](https://docs.streamlit.io/)
+    * [Streamlit GitHub Repository](https://github.com/streamlit/streamlit)
+ * **PyTorch (torch):** An open-source machine learning framework that accelerated the development of the computational models and tensor operations used in this project.
+      * [PyTorch Documentation](https://docs.pytorch.org/docs/stable/index.html)
+      * [PyTorch GitHub Repository](https://github.com/pytorch/pytorch)
+ * **Plotly:** For their versatile graphing libraries that enable the creation of interactive and high-quality visualizations within this application.
+      * [Plotly Documentation](https://plotly.com/python/)
+      * [Plotly GitHub Repository](https://github.com/plotly/plotly.py)
+  * **Google Gemini:** For its invaluable assistance in code analysis and execution, streamlining the development and refinement process of this project.
+      * [Google Gemini Information](https://gemini.google.com/)
+
+Their work has made projects like `Digital Culture` feasible.
 
 ## License
 [BSD 3-Clause License](LICENSE) - Feel free to use and modify
